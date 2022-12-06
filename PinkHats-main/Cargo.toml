@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "node",
+    "pallets/medical-record",
+    "pallets/record-sharing/",
+    "runtime",
+]
+[profile.release]
+panic = "unwind"
